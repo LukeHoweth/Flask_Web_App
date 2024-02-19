@@ -2,17 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <!-- Page Title -->
     <title>{% block title %}Home{% endblock %}</title>
 </head>
 
-
 <body>
-
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
@@ -29,9 +27,8 @@
     </nav>
 
     <!-- Flash Alert Bar (Hidden until flash() is called) -->
-    {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-    {% for category, message in messages %}
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+    messages %} {% for category, message in messages %}
     <!-- if error alert -->
     {% if category == "error" %}
     <div class="alert alert-danger alert-dismissable fade show" role="alert">
@@ -49,20 +46,10 @@
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endwith %}
+    {% endif %} {% endfor %} {% endif %} {% endwith %}
 
     <!-- Main content block -->
-    <div class="container">
-        {% block content %}
-        {% endblock %}
-    </div>
-
-
-
-
+    <div class="container">{% block content %} {% endblock %}</div>
 
     <!--Bootstrap required JS-->
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
