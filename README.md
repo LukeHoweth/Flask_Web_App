@@ -47,7 +47,7 @@ Welcome to the Flask Notes App! This simple web application allows users to sign
 1. Run the Flask application:
 
     ```bash
-    python app.py
+    python main.py
     ```
 
 2. Open your web browser and navigate to [http://localhost:5000](http://localhost:5000).
