@@ -73,13 +73,3 @@ Before you begin, ensure you have the following installed:
 ## Contributing
 
 Feel free to contribute to this project! Submit issues for bugs or feature requests, and create pull requests to improve the functionality.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Flask: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
-- SQLAlchemy: [https://www.sqlalchemy.org/](https://www.sqlalchemy.org/)
-- Flask-WTF: [https://flask-wtf.readthedocs.io/](https://flask-wtf.readthedocs.io/)
