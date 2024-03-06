@@ -7,14 +7,6 @@ Welcome to the Flask Notes App! This simple web application allows users to sign
 - **User Authentication**: Users can sign up for an account and securely log in.
 - **Note Management**: Add and delete personal notes in your journal.
 
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- Python 3.x
-- Flask
-- SQLAlchemy
-
 ## Installation
 
 1. Clone the repository:
@@ -49,11 +41,7 @@ Before you begin, ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-
-## Configuration
-
-1. Open the `config.py` file and configure the `SECRET_KEY` for Flask.
-
+    
 ## Usage
 
 1. Run the Flask application:
